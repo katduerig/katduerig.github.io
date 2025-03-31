@@ -1,0 +1,91 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fff0f5; /* very light pink */
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff8fab; /* medium pink */
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 5px solid #ffcce0;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ffcce0; /* light pink on hover */
+    color: #333;
+  }
+  
+  /* Main section */
+  .intro {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(255, 105, 135, 0.2);
+  }
+  
+  .intro h2 {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    color: #d6336c; /* deep pink */
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #ff8fab;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    border-top: 5px solid #ffcce0;
+  }
+  
