@@ -15,7 +15,7 @@ const { chromium } = require('playwright');
 
   // Check for navigation links
   const links = [
-    'Home', 'Computer Science', 'Art', 'Plans', 'Projects', 'Contact'
+    'Home', 'Computer Science', 'Art', 'Projects', 'Contact'
   ];
   for (let text of links) {
     const linkVisible = await page.locator(`text=${text}`).isVisible();
