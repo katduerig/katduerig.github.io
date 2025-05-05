@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Katie Duerig | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .image-gallery .images {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .image-gallery img, .featured img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .featured img {
+      display: block;
+      margin: 1rem auto;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -29,6 +49,25 @@
         <h2>Welcome!</h2>
         <p>Hi, I'm Katie Duerig — an artist, software developer and event planner. This website is my personal hub where I share my work, passions, and projects.</p>
         <p>Use the links above to explore what I do!</p>
+      </div>
+    </section>
+
+    <section class="image-gallery">
+      <div class="container">
+        <h2>Gallery Preview</h2>
+        <div class="images">
+          <img src="landscape.jpg" alt="Project preview 1" />
+          <img src="portrait.jpg" alt="Project preview 2" />
+          <img src="lion.jpg" alt="Project preview 3" />
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="container">
+        <h2>Featured Project</h2>
+        <p>Here's a highlight of something I'm currently working on</p>
+        <img src="mural.jpg" alt="Featured project image" />
       </div>
     </section>
   </main>
